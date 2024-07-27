@@ -7,14 +7,14 @@ export default function createMenuPage() {
 
     const menuItems = document.createElement('ul');
 
-    const items1 = document.createElement('li');
-    items1.textContent = 'Pizza';
+    const item1 = document.createElement('li');
+    item1.textContent = 'Pizza';
 
     const item2 = document.createElement('li');
     item2.textContent = 'Pasta';
 
     const item3 = document.createElement('li');
-    item3 = textContent = 'salad';
+    item3.textContent = 'salad';
 
     menuItems.appendChild(item1);
     menuItems.appendChild(item2);
